@@ -1,12 +1,13 @@
+import { BrowserRouter } from 'react-router-dom'
 import { GlobalStyle } from './styles/globalStyles'
-import { Card } from './components/cards'
+import Router from './routes'
 
 export function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <GlobalStyle />
-      <Card />
+      <Router />
       <h1>Ace Cortex</h1>
-    </div>
+    </BrowserRouter>
   )
 }

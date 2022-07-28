@@ -15,3 +15,16 @@ export const ArrowRight = styled(ArrowIosForward)`
   height: 2rem;
   margin-right: 2rem;
 `
+export const InforContainer = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+`
+
+export const User = styled.h3`
+  font-size: 1.5rem;
+  weight: 700;
+`
+export const Description = styled.p`
+  font-size: 1.125rem;
+`
