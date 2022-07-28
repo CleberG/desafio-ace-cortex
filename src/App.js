@@ -1,7 +1,10 @@
+import { GlobalStyle } from './styles/globalStyles'
+
 export function App() {
   return (
     <div className="App">
-      <title>Ace Cortex</title>
+      <GlobalStyle />
+      <h1>Ace Cortex</h1>
     </div>
   )
 }
