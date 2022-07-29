@@ -8,6 +8,7 @@ export const CardContainer = styled.div`
   justify-content: end;
   border-radius: 5px;
   background: #ffffff;
+  padding: 1rem;
 `
 
 export const ArrowRight = styled(ArrowIosForward)`
@@ -27,4 +28,5 @@ export const User = styled.h3`
 `
 export const Description = styled.p`
   font-size: 1.125rem;
+  color: #a8a8b3;
 `

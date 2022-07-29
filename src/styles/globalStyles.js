@@ -23,6 +23,10 @@ body {
   -webkit-front-smoothing: antialiased;
 }
 
+body, input, button {
+  font-family: 'Roboto', sans-serif;
+}
+
 button {
   cursor: pointer;
 } 

@@ -7,7 +7,6 @@ export function App() {
     <BrowserRouter>
       <GlobalStyle />
       <Router />
-      <h1>Ace Cortex</h1>
     </BrowserRouter>
   )
 }
